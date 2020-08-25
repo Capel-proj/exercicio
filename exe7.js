@@ -9,7 +9,7 @@ function chefe(){
             entrada(vetor)
             break
         case 2:
-            mediaSalario(vetor)
+            media(vetor)
             break
         case 3:
              console.log(`Obrigado por ultilizar nosso programa.`)
@@ -36,10 +36,10 @@ function entrada(vet){
     
 }
 
-function mediaSalario(vet){
+function media(vet){
     //console.log(`entrou na função média `)
     if (vet == []){
-        console.log(`Nenhum habitante cadastrado`)
+        console.log(`Nenhum número cadastrado`)
     }
     else {
         var soma = 0
