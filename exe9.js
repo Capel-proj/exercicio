@@ -1,5 +1,6 @@
     function exe9 (numero){
-        for(var i = numero; i> numero ; i--{
+        var soma = 0
+        for(var i = numero; i> numero ; i--){
             if (numero % i == 0) {
             soma = soma + i
             }
